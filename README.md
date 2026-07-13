@@ -1,6 +1,8 @@
 # Clarified Semver
 
 Semantic versioning is a much better idea than everybody-just-versions-how-they-feel-like versioning, which some projects still sadly use. (There are also other viable versioning patterns, like date-based versioning; cf https://date-ver.com/ & https://calver.org/). The most popular expression of the concept of semantic versioning is https://semver.org/ "Semantic Versioning 2.0.0" from the site Semantic Versioning (according to the HTML metadata on that site). That site is presented as a "Specification", but unfortunately leaves some important questions unanswered or even answered wrong. This document, "Clarified Semver", specifies additional details about semver.
+
+<link rel="stylesheet" type="text/css" href="/style.css" /> <!-- This line is merely to style the page correctly in systems that respect such styling; it has no semantic meaning otherwise. -->
  
 ## Document precedence
 
