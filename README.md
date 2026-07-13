@@ -81,6 +81,6 @@ Clarified Semver, & this document, are not versioned, because they are not expec
 — Confucius, Analects, Book XIII, Chapter 3, verses 5–7, Analect 13.3, translated by James Legge
 
 ## License
-This document is currently my sole, proprietary property, and if you contribute to it your agree to give me your changes under those terms.
+This document is currently my sole, proprietary property, and if you contribute to it you agree to give me your changes under those terms.
 
 If it would somehow help you for this document to be freely licensed, we can talk.
