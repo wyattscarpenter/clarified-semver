@@ -66,7 +66,7 @@ For various reasons, this is a bad idea. Just pin a specific version and advance
 
 ### Tilde range specifiers
 
-NPM `~` (originally called "spermies") and Python `~=` range specifiers actually do not mean the same thing. None of these range specifiers are part of semver, by the way. Just a tip for you.
+NPM `~` (originally called "[spermies](https://github.com/npm/node-semver/commit/49de97e8411ccc30b78fc4d019800985c1233596)") and Python `~=` range specifiers actually do not mean the same thing. None of these range specifiers are part of semver, by the way. Just a tip for you.
 
 ## Versions of this document
 
@@ -81,6 +81,6 @@ Clarified Semver, & this document, are not versioned, because they are not expec
 — Confucius, Analects, Book XIII, Chapter 3, verses 5–7, Analect 13.3, translated by James Legge
 
 ## License
-This document is currently my sole, proprietary property, and if you contribute to it you agree to give me your changes under those terms.
+This document is currently my sole, proprietary property, and if you [contribute to it](https://github.com/wyattscarpenter/clarified-semver/) you agree to give me your changes under those terms.
 
 If it would somehow help you for this document to be freely licensed, we can talk.
