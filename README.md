@@ -20,7 +20,7 @@ You may specify that you follow specifically "Clarified Semver" to indicate that
 
 The concept of an API is never elaborated upon in the semver spec. As an engineer, you may be tempted to think the API is "any observable behavior of the system". (You may then wonder how PATCH and MAJOR do not contradict each other.) However, this is not how the "API" of semver is. The API in semver is the interface you have agreed to. Often implicitly, but implicitly in the sense of "it was what you intended", not "it was everything you happened to do".
 
-There is a bonus detail here that is hard to characterize, which is that if you change behavior backwards-incompatibly in a way that was never part of your API, but a significant number[^num] of your dependents you should probably treat that as an API change anyway. (If it pleases you, you can think of this as being truly a part of your API, implying that users get some say in what the API actually is.) See also "Version numbers are free" below.
+There is a bonus detail here that is hard to characterize, which is that if you change behavior backwards-incompatibly in a way that does not impact what you thought of as your API, but which a significant number[^num] of your dependents will be adversely affected by, you should probably treat that as an API change anyway. (If it pleases you, you can think of this as being truly a part of your API, implying that users get some say in what the API actually is.) See also "Version numbers are free" below.
 
 [^num]: Can a significant number be 1? I don't see why not.
 
