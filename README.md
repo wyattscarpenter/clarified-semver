@@ -56,6 +56,18 @@ While it remains a crucial law of semver that each released version must have it
 
 A common practice is that in 0.y.z, y becomes a pseudo-major version indicator and z becomes a pseudo-(union of minor and patch) version indicator. I'm not recommending you do this; I'm just letting you know.
 
+### Changelog
+
+Basically the whole point of doing a major release is to tell downstream developers to pay extra attention, so you'd best have something for them to pay attention to, like a changelog or "here's what's new in version X!" document. Or, possibly, just a suitably detailed commit message with an easy way to find it.
+
+### Pinning ranges
+
+For various reasons, this is a bad idea. Just pin a specific version and advance that later. If you actually know for a fact that you support some range of versions of your deps, go ahead if you want (this had better be a finite set that gets tested in your testing pipeline, or else how do you know?!)
+
+### Tilde range specifiers
+
+NPM `~` (originally called "spermies") and Python `~=` range specifiers actually do not mean the same thing. None of these range specifiers are part of semver, by the way. Just a tip for you.
+
 ## Versions of this document
 
 https://semver.org/ describes itself as 2.0.0; this is presumably semantically versioned itself. You can see the difference between semver 1 and 2 here: https://github.com/semver/semver/compare/v1.0.0...v2.0.0. I have never in my entire life heard anyone specify what version of SemVer they were using. Presumably they were all using 2 🤷.
