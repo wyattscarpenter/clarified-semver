@@ -28,12 +28,6 @@ There is a bonus detail here that is hard to characterize, which is that if you 
 
 PATCH increments may be used for anything that does not require a MAJOR or MINOR increment. Documentation changes and internal refactors fit in here.
 
-## Versions of this document
-
-https://semver.org/ describes itself as 2.0.0; this is presumably semantically versioned itself. You can see the difference between semver 1 and 2 here: https://github.com/semver/semver/compare/v1.0.0...v2.0.0. I have never in my entire life heard anyone specify what version of SemVer they were using. Presumably they were all using 2 🤷.
-
-Clarified Semver, & this document, are not versioned, because they are not expected to significantly change in backwards-incompatible ways. This document may, however, be expanded and clarified from time to time. If you need to refer to a particular revision of this document, you may do so using [its git history](https://github.com/wyattscarpenter/clarified-semver/commits/master/). Yes, this does mean that the Clarified Semver specification is itself date-versioned.
-
 ## Guidance
 
 Although not binding, here is some advice about semver:
@@ -61,6 +55,12 @@ While it remains a crucial law of semver that each released version must have it
 ### 0 major
 
 A common practice is that in 0.y.z, y becomes a pseudo-major version indicator and z becomes a pseudo-(union of minor and patch) version indicator. I'm not recommending you do this; I'm just letting you know.
+
+## Versions of this document
+
+https://semver.org/ describes itself as 2.0.0; this is presumably semantically versioned itself. You can see the difference between semver 1 and 2 here: https://github.com/semver/semver/compare/v1.0.0...v2.0.0. I have never in my entire life heard anyone specify what version of SemVer they were using. Presumably they were all using 2 🤷.
+
+Clarified Semver, & this document, are not versioned, because they are not expected to significantly change in backwards-incompatible ways. This document may, however, be expanded and clarified from time to time. If you need to refer to a particular revision of this document, you may do so using [its git history](https://github.com/wyattscarpenter/clarified-semver/commits/master/). Yes, this does mean that the Clarified Semver specification is itself date-versioned.
 
 ## Epigraph
 
