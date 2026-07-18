@@ -78,7 +78,11 @@ NPM `~` (originally called "[spermies](https://github.com/npm/node-semver/commit
 
 ## Versions of this document
 
-https://semver.org/ describes itself as 2.0.0; this is presumably semantically versioned itself. You can see the difference between semver 1 and 2 here: https://github.com/semver/semver/compare/v1.0.0...v2.0.0. I have never in my entire life heard anyone specify what version of SemVer they were using. Presumably they were all using 2 🤷.
+https://semver.org/ describes itself as 2.0.0. You can see the difference between semver 1 and 2 here: https://github.com/semver/semver/compare/v1.0.0...v2.0.0. I have never in my entire life heard anyone specify what version of SemVer they were using. Presumably they were all using 2 🤷.
+
+It is unclear if Semver somehow believes itself to be semvered, despite how they don't do that. https://github.com/semver/semver/compare/v2.0.0...master shows that they have made changes to semver without even bumping the patch version, and one of those, https://github.com/semver/semver/commit/a27ac08e16898689bea9299b27462d2524cbebff, even changes a requirement of semver from SHOULD to MUST. This change is part of the live website, which still describes itself as 2.0.0. For more information, or just to waste time, you could see https://github.com/semver/semver/issues/799
+
+The precise "subversion" of semver.org that Clarified Semver specifies against is not precisely specified here, as I do not want to foreclose the meaning-preserving wording improvements and so on that they occasionally add. However, as I am writing this line on 2026-07-18, suffice it to say that no earlier subversion of semver besides the most recent one, https://github.com/semver/semver/blob/f99d5485190a47c0863949e7da810a5553e0ed4d/semver.md, may be used.
 
 Clarified Semver, & this document, are not versioned, because they are not expected to significantly change in backwards-incompatible ways. This document may, however, be expanded and clarified from time to time. If you need to refer to a particular revision of this document, you may do so using [its git history](https://github.com/wyattscarpenter/clarified-semver/commits/master/). Yes, this does mean that the Clarified Semver specification is itself date-versioned.
 
