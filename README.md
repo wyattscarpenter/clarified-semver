@@ -32,7 +32,7 @@ PATCH increments may be used for anything that does not require a MAJOR or MINOR
 
 The digits in semver are meant to be 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. This is intended to be exhaustive of the digits in semver.
 
-Since [some regex engines now support digits from other languages](https://github.com/semver/semver/issues/788) as part of their `\d`, it is recommend that you use [0-9] instead of `\d` in your semver regexes.
+Since [some regex engines now support digits from other languages](https://github.com/semver/semver/issues/788) as part of their `\d`, it is recommended that you use [0-9] instead of `\d` in your semver-related regexes.
 
 ---
 
