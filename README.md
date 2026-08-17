@@ -10,7 +10,7 @@ This document builds on top of https://semver.org/spec/v2.0.0.html; in all unspe
 
 ## Nomenclature
 
-All of semver, Semver, SemVer, semVer, and SEMVER are correct; as are the same but with a hyphen, an underscore, or a space between the first three letters and the second three letter. All capitalizations of "Semantic Versioning" are acceptable.
+All of semver, Semver, SemVer, semVer, and SEMVER are correct; as are the same but with a hyphen, an underscore, or a space between the first three letters and the second three letters. All capitalizations of "Semantic Versioning" are acceptable.
 
 You may specify that you follow specifically "Clarified Semver" to indicate that you follow Semver and you believe this document is correct about it.
 
